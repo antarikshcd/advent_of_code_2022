@@ -12,7 +12,7 @@ elf_cnt = 0
 #
 with open(file, 'r') as f:
     # f is iterable
-    for i, line in enumerate(f):
+    for line in f:
         txt = line.strip() # strip removes the new line character
         # if a whitespace then we bump to the next elf
         if len(txt) == 0:
