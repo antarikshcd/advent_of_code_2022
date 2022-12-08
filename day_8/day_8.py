@@ -12,14 +12,10 @@ with open('./input.txt', 'r') as file:
         #
         data.append(r)
 
-        # data.append(line_strip)
 #
-#print(row)
 # store in column major
 Nrows = len(data)
 Ncols = len(data[0])
-print(Ncols)
-print(Nrows)
 #
 def is_tree_visible(row, col):
     """
